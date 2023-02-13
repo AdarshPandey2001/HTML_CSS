@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    
+}
+header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(34, 217, 159);
+    padding: 2.0em;
+    padding: 20px;
+    margin: 0px;
+    
+}
+#subtitle{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(246, 239, 239);
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 0px;
+}
+#heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(246, 239, 239);
+    text-align: center;
+    /* background-color: aqua; */
+    margin: 0 0 10px 0;
+    padding: 0px;
+}
+.Links{
+    /* display: flex; */
+    justify-content: flex-start;
+    background-color: black;
+    margin: 0px;
+    padding: 0.5em;
+}
+.link{
+    color: azure;
+    padding: 0.5em;
+}
+.left{
+    background-color: rgb(248, 244, 244);
+    width:34%;
+    display: inline-block;
+    padding: 2px;
+
+}
+.left_uppper_img{
+    background-color: gray;
+    padding: 30px;
+    margin: 5px;
+    
+    }
+    
+    
+    .left_lower_img{
+        background-color: gray;
+        padding: .25px ;
+        margin: 5px;
+    }
+    .left_uppper_img p{
+        text-align: left;
+        
+    }
+    
+
+.right{
+    width: 65%;
+  float: right;  
+  right: 40px;
+  padding: 2px;
+  
+}
+
+.right_uppper_img{
+    background-color: gray;
+    padding: 30px;
+
+}
+.right_lower_img{
+    background-color: gray;
+    padding: 30px;
+
+}
+
+/* adjusting footer */
+footer{
+    background-color: lightgray;
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
